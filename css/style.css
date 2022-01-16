@@ -1,0 +1,261 @@
+body{
+      color: #FFFFFF;
+      background-image: url(../images/n6.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed; 
+     
+scroll-behavior: smooth;
+    }
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #03D2BC;
+  border-radius: 0;
+  border: 0;
+}
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+ 
+}
+
+
+
+.landingpage{
+  
+  
+  color: black;
+
+}
+
+#ptr{
+  
+  border-radius: 7px ;
+  border:6px solid white;
+  padding: 3px;
+
+   background-image: linear-gradient(
+        to bottom right ,#4affde 0%,#5b9dff 40%,#d06bff 60%,#ff34d2 100%
+        );
+      background-size: 200% 200%;
+      animation: movingGradient 5s linear infinite alternate;
+    }
+    @keyframes movingGradient {
+      from{ background-position: 0 0; }
+      to { background-position: 100% 100%; }
+}
+.clss1{
+  position: relative;
+  width: 22%;
+  height: 220px;
+  left: 20px;
+  top: 140px;
+
+}
+.clss2{
+  position: relative;
+  width: 22%;
+  height: 220px;
+  left: 350px;
+  top: -80px;
+
+
+
+}
+.clss3{
+  position: relative;
+  width: 22%;
+  height: 220px;
+  left: 680px;
+  top: -300px;
+
+
+}
+.clss4{
+  position: relative;
+  width: 22%;
+  height: 220px;
+  right: -1000px;
+ top: -520px;
+
+}
+.spn{
+  position: relative;
+  background-color: #080808;
+  color:white;
+  font-weight: 20px;
+  width:100%;
+  height: 150px;
+  border-radius: 8px;
+  border:4px solid black; 
+  top: 0px;
+  left: -3px;
+}
+.img1{
+  position: relative;
+  position:absolute;
+  left: -3px;
+  top: 220px;
+  border-radius: 20px;
+
+}
+.img2{
+  position: relative;
+  
+  left:-10px;
+  top: 60px;
+  border-radius: 20px;
+}
+.img3{
+  position: relative;
+  
+  left:-10px;
+  top: 60px;
+  border-radius: 20px;
+}
+.img4{
+  position: relative;
+  
+  left:-10px;
+  top: 60px;
+  border-radius: 20px;
+}
